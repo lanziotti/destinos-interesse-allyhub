@@ -1,0 +1,12 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main {
+    height: 100%;
+    background-color: #0000ff;
+    color: white;
+}

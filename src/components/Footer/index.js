@@ -1,8 +1,16 @@
 import './styles.css';
+import MiniLogoImage from '../../assets/mini-logo-ally.png';
 
 function Footer() {
     return (
-        <h1>Footer</h1>
+        <footer>
+            <div className='footer-image'>
+                <img src={MiniLogoImage} alt='Logo' />
+            </div>
+            <div className='footer-text'>
+                <strong>Todos os direitos reservados a Rodrigo Lanziotti</strong>
+            </div>
+        </footer>
     );
 }
 

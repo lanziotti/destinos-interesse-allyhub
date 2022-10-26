@@ -1,8 +1,11 @@
 import './styles.css';
+import LogoImage from '../../assets/logo-ally.png';
 
 function Header() {
     return (
-        <h1>Header</h1>
+        <header>
+            <img src={LogoImage} alt='Logo' />
+        </header>
     );
 }
 
