@@ -8,5 +8,141 @@
 main {
     height: 100%;
     background-color: #0000ff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1, main h2 {
     color: white;
+}
+
+main h1 {
+    font-size: 60px;
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.container-forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form button {
+    all: unset;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    background-color: lightskyblue;
+    text-align: center;
+    cursor: pointer;
+    margin: 50px 0;
+}
+
+form button:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+
+.container-squares {
+    display: flex;
+    gap: 80px;
+}
+
+.content-user {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 5px;
+
+    padding: 20px 0;
+}
+
+.content-user h3 {
+    color: #0000ff;
+    margin-bottom: 20px;
+}
+
+.content-user-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-user-data label {
+    font-size: 14px;
+    color: lightskyblue;
+}
+
+.content-user-data input {
+    all: unset;
+    width: 300px;
+    height: 40px;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.content-destinations {
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    border-radius: 5px;
+
+    padding: 20px 0;
+}
+
+.content-destinations h3 {
+    color: #0000ff;
+    margin-bottom: 20px;
+}
+
+.content-current-destination {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-current-destination label {
+    font-size: 14px;
+    color: lightskyblue;
+}
+
+.content-current-destination select {
+    all: unset;
+    width: 300px;
+    height: 40px;
+    color: lightskyblue;
+    border: 1px solid lightskyblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 10px;
 }
